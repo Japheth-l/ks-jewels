@@ -1,0 +1,125 @@
+/*
+ * KS Jewels catalogue.
+ * Edit names, prices (in Ghana cedis) and descriptions here — the shop updates automatically.
+ * NOTE: Rings use the real ₵70–₵95 range from Instagram. All other prices are
+ * placeholders until confirmed by the shop.
+ */
+window.KS_PRODUCTS = [
+  // ---------- Rings ----------
+  { id: "sculpted-wrap-ring", name: "Sculpted Wrap Ring", category: "rings", metal: "gold", price: 95,
+    img: "assets/img/sculpted-rings.jpg", tag: "Bestseller",
+    desc: "Bold, fluid wraps in high-shine gold. Adjustable fit — stack two for a statement hand." },
+  { id: "infinity-loop-ring", name: "Infinity Loop Ring", category: "rings", metal: "gold", price: 85,
+    img: "assets/img/loop-rings.jpg",
+    desc: "A dainty open loop traced with sparkling stones. Light enough for everyday wear." },
+  { id: "cat-eye-cocktail-ring", name: "Cat-Eye Cocktail Ring", category: "rings", metal: "gold", price: 95,
+    img: "assets/img/cat-eye-rings.jpg", tag: "New",
+    desc: "Glossy cat-eye stone set in a chunky gold signet. Available in ocean blue, blush and emerald." },
+  { id: "crystal-link-ring", name: "Crystal Link Ring", category: "rings", metal: "gold", price: 90,
+    img: "assets/img/crystal-ring.jpg",
+    desc: "Chain-link band centred on an open circle, flanked by crystal pavé." },
+  { id: "petal-stack-rings", name: "Petal Stack Rings", category: "rings", metal: "gold", price: 70,
+    img: "assets/img/floral-rings.jpg",
+    desc: "Flowers, hearts and links — mix the set across every finger." },
+
+  // ---------- Earrings ----------
+  { id: "mirror-dome-studs", name: "Mirror Dome Earrings", category: "earrings", metal: "both", price: 120,
+    img: "assets/img/dome-earrings.jpg", tag: "Bestseller",
+    desc: "Oversized polished domes with a liquid-mirror finish. In gold or silver." },
+  { id: "cascade-chain-hoops", name: "Cascade Chain Hoops", category: "earrings", metal: "gold", price: 110,
+    img: "assets/img/chain-hoop-earrings.jpg",
+    desc: "Huggie hoops dripping with layered paperclip chains that move as you do." },
+  { id: "daisy-outline-earrings", name: "Daisy Outline Earrings", category: "earrings", metal: "gold", price: 100,
+    img: "assets/img/flower-statement-earrings.jpg",
+    desc: "A graphic, oversized flower silhouette — playful and statement-making." },
+  { id: "hibiscus-wire-earrings", name: "Hibiscus Wire Earrings", category: "earrings", metal: "both", price: 110,
+    img: "assets/img/flower-earrings-tray.jpg",
+    desc: "Hand-shaped wire blooms with organic texture, in gold or silver." },
+  { id: "ribbed-dome-huggies", name: "Ribbed Dome Earrings", category: "earrings", metal: "gold", price: 95,
+    img: "assets/img/ridge-earrings.jpg",
+    desc: "Puffed, ribbed gold domes that catch the light from every angle." },
+  { id: "ruby-halo-studs", name: "Ruby Halo Studs", category: "earrings", metal: "gold", price: 80,
+    img: "assets/img/ruby-studs.jpg",
+    desc: "A rich red centre stone ringed with a sparkling halo. Comes boxed." },
+  { id: "swirl-sculpt-hoops", name: "Swirl Sculpt Hoops", category: "earrings", metal: "both", price: 105,
+    img: "assets/img/swirl-hoops.jpg",
+    desc: "Grooved crescent hoops with a sculptural swirl — gold or silver." },
+  { id: "crystal-teardrop-drops", name: "Crystal Teardrop Drops", category: "earrings", metal: "gold", price: 120,
+    img: "assets/img/teardrop-earrings.jpg",
+    desc: "Glittering teardrop crystals on a fine gold chain. Made for occasions." },
+  { id: "pave-charm-hoops", name: "Pavé Charm Hoops", category: "earrings", metal: "gold", price: 90,
+    img: "assets/img/hoop-charm-earrings.jpg",
+    desc: "Classic gold hoops finished with a detachable crystal pavé charm." },
+  { id: "butterfly-stud", name: "Butterfly Stud", category: "earrings", metal: "gold", price: 60,
+    img: "assets/img/butterfly-stud.jpg",
+    desc: "A tiny jewelled butterfly — perfect for a second or third piercing." },
+
+  // ---------- Necklaces ----------
+  { id: "charm-pendant-necklace", name: "Charm Pendant Necklace", category: "necklaces", metal: "gold", price: 110,
+    img: "assets/img/charm-necklaces.jpg", tag: "New",
+    desc: "Choose your charm: bow, daisy, maple leaf, pearl heart or rose locket." },
+  { id: "dainty-cross-necklace", name: "Dainty Cross Station Necklace", category: "necklaces", metal: "gold", price: 100,
+    img: "assets/img/cross-charm-necklace.jpg",
+    desc: "Fine chain scattered with tiny crosses and beads. A forever layering piece." },
+  { id: "butterfly-station-necklace", name: "Butterfly Station Necklace", category: "necklaces", metal: "gold", price: 115,
+    img: "assets/img/butterfly-necklace.jpg",
+    desc: "Delicate butterflies with lilac and pink crystal accents along a gold chain." },
+  { id: "heart-charm-pendant", name: "Heart Charm Pendant", category: "necklaces", metal: "silver", price: 120,
+    img: "assets/img/heart-charm-necklaces.jpg",
+    desc: "A charm-cluster pendant with puffed heart, cross and crystal details." },
+  { id: "sleek-collar-choker", name: "Sleek Collar Choker", category: "necklaces", metal: "gold", price: 130,
+    img: "assets/img/gold-collar.jpg", tag: "Bestseller",
+    desc: "A smooth, rigid gold collar that sits beautifully at the collarbone." },
+  { id: "gold-station-chain", name: "Gold Station Chain", category: "necklaces", metal: "gold", price: 95,
+    img: "assets/img/gold-station-chains.jpg",
+    desc: "Fine chains with flower, knot and stone stations. Wear one or layer them all." },
+  { id: "silver-station-chain", name: "Silver Station Chain", category: "necklaces", metal: "silver", price: 90,
+    img: "assets/img/silver-chains.jpg",
+    desc: "Minimal silver chains with subtle charm stations." },
+
+  // ---------- Bracelets & Bangles ----------
+  { id: "emerald-baguette-bangle", name: "Emerald Baguette Bangle", category: "bracelets", metal: "gold", price: 140,
+    img: "assets/img/gem-bracelets.jpg",
+    desc: "Square-cut jewel tones on a cut-out gold bangle. Pair with the matching chain bracelet." },
+  { id: "statement-bracelet-stack", name: "Statement Bracelet Stack", category: "bracelets", metal: "gold", price: 150,
+    img: "assets/img/gold-bracelet-stack.jpg",
+    desc: "Wave cuffs and chunky link chains — the ready-made gold arm party." },
+  { id: "dainty-charm-bracelet", name: "Dainty Charm Bracelet", category: "bracelets", metal: "gold", price: 75,
+    img: "assets/img/charm-bracelets.jpg", tag: "New",
+    desc: "Fine gold chains with butterflies, spirals and coloured stones. Stack 3+." },
+  { id: "coil-wrap-bangle", name: "Coil Wrap Bangle", category: "bracelets", metal: "both", price: 120,
+    img: "assets/img/coil-bangles.jpg",
+    desc: "A textured spiral that wraps the wrist — gold, silver, or both together." },
+  { id: "enamel-stripe-cuff", name: "Enamel Stripe Cuff", category: "bracelets", metal: "gold", price: 85,
+    img: "assets/img/enamel-bangles.jpg",
+    desc: "Colour-blocked enamel and gold. Green, white, black, pink or red." },
+  { id: "crystal-tip-cuff", name: "Crystal-Tip Open Cuff", category: "bracelets", metal: "gold", price: 110,
+    img: "assets/img/open-cuff.jpg",
+    desc: "A sleek open cuff finished with a bezel crystal at each end." },
+  { id: "pave-bangle-collection", name: "Pavé Bangle Collection", category: "bracelets", metal: "gold", price: 130,
+    img: "assets/img/bangle-tray.jpg",
+    desc: "Bow, shell, starfish, nail and gemstone bangles — pick your favourite." },
+
+  // ---------- Anklets ----------
+  { id: "teardrop-anklet", name: "Teardrop Charm Anklet", category: "anklets", metal: "gold", price: 70,
+    img: "assets/img/anklet.jpg",
+    desc: "A fine gold anklet with swinging teardrop charms. Made for sandals season." },
+
+  // ---------- Gift sets ----------
+  { id: "pearl-aqua-gift-set", name: "Pearl & Aqua Gift Set", category: "sets", metal: "silver", price: 180,
+    img: "assets/img/pearl-gift-set.jpg", tag: "Gift ready",
+    desc: "Necklace and matching earrings in our signature KS Jewels gift box." },
+  { id: "pearl-halo-set", name: "Pearl Halo Necklace Set", category: "sets", metal: "gold", price: 170,
+    img: "assets/img/pearl-set-worn.jpg",
+    desc: "Organic gold frames holding a lustrous pearl — pendant and drop earrings." }
+];
+
+window.KS_CATEGORIES = [
+  { id: "all", label: "All" },
+  { id: "rings", label: "Rings", img: "assets/img/sculpted-rings.jpg" },
+  { id: "earrings", label: "Earrings", img: "assets/img/dome-earrings.jpg" },
+  { id: "necklaces", label: "Necklaces", img: "assets/img/charm-necklaces.jpg" },
+  { id: "bracelets", label: "Bracelets & Bangles", img: "assets/img/gem-bracelets.jpg" },
+  { id: "anklets", label: "Anklets", img: "assets/img/anklet.jpg" },
+  { id: "sets", label: "Gift Sets", img: "assets/img/pearl-gift-set.jpg" }
+];
